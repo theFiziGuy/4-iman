@@ -1,7 +1,6 @@
 import os 
 import time 
 import socket 
-import pywhatkit
 from faker import Faker
 from faker.providers import internet
 
@@ -49,7 +48,7 @@ countinueInput = input(bcolors.OKGREEN + "Do You want to countinue? Yes/No" + bc
 
 if countinueInput == "Yes" or "yes" or "y" or "Y":
     print(bcolors.OKGREEN + "lets see" )
-    pywhatkit.sendwhatmsg_instantly(me,"Your Ip Is " + fake_ip + " Thx Iman")
+    print("Your Ip Is " + fake_ip + " Thx Iman")
     time.sleep(3)
     os.system("cls" if os.name == "nt" else "clear")
     print(bcolors.OKCYAN + "check whatssap iman")
