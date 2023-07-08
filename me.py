@@ -48,10 +48,10 @@ countinueInput = input(bcolors.OKGREEN + "Do You want to countinue? Yes/No" + bc
 
 if countinueInput == "Yes" or "yes" or "y" or "Y":
     print(bcolors.OKGREEN + "lets see" )
-    print("Your Ip Is " + fake_ip + " Thx Iman")
+    print("Your Ip Is " + fake_ip +  "And your number is" +iman+ "Thx Iman")
     time.sleep(3)
     os.system("cls" if os.name == "nt" else "clear")
-    print(bcolors.OKCYAN + "check whatssap iman")
+    print(bcolors.OKCYAN + "ok dah")
 
 
 elif  countinueInput == "No" or "no" or "n" or "N":
